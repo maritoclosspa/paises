@@ -1,5 +1,4 @@
 
-
 <?php
 require_once "conexion.php";
 
@@ -375,6 +374,10 @@ $total = $resultado->num_rows;
 
                                 <td>
                                     <div class="acciones">
+                                        <a class="editar"
+                                           href="provincias.php?id=<?php echo $pais['pais_id']; ?>">
+                                            📍 Provincias
+                                        </a>
                                         <a class="editar"
                                            href="editar.php?id=<?php echo $pais['pais_id']; ?>">
                                             ✏ Editar
